@@ -46,7 +46,7 @@ a {
 #title {
   display: block;
   width: 30%;
-  margin: 5em auto;
+  margin: 5em auto 2em auto;
   text-align: center;
 }
 
@@ -76,7 +76,7 @@ a {
   background-color: #111111;
   display: block;
   width: 854px;
-  margin: 5em auto;
+  margin: 3em auto;
   border: 3px solid;
   border-radius: 15px 50px 30px 5px;
   text-align: center;
