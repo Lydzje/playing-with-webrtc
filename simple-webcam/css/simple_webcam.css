@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url('../../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf');
+}
+
+body {
+  background-color: #eeeeee;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Roboto Condensed";
+}
+
+a {
+  text-decoration: none;
+  color: #111111;
+}
+
+#return {
+  position: absolute;
+  left: 2em;
+  top: 2.5em;
+  font-size: 2em;
+}
+
+#return div {
+  background-color: #43a6f2;
+  display: inline-block;
+  padding: 0.1em 0.5em;
+  border-radius: 2em 0em 0em 2em;
+  text-align: center;
+  transition: all 0.2s;
+  webkit-transition: all 0.2s;
+}
+
+#return div:hover {
+  background-color: #5ab6fc;
+  cursor: pointer;
+}
+
+#return div:active {
+  background-color: #2e97e8;
+  box-shadow: 0 0 0.1em 0.1em #888888;
+}
+
+#title {
+  display: block;
+  width: 30%;
+  margin: 5em auto;
+  text-align: center;
+}
+
+#source-link div {
+  background-color: #43a6f2;
+  display: inline-block;
+  width: 300px;
+  padding: 1.5em;
+  text-align: center;
+  border-radius: 3em;
+  font-size: 1.5em;
+  transition: all 0.2s;
+  webkit-transition: all 0.2s;
+}
+
+#source-link div:hover {
+  background-color: #5ab6fc;
+  cursor: pointer;
+}
+
+#source-link div:active {
+  background-color: #2e97e8;
+  box-shadow: 0 0 0.1em 0.1em #888888;
+}
+
+#video-container {
+  background-color: #111111;
+  display: block;
+  width: 854px;
+  margin: 5em auto;
+  border: 3px solid;
+  border-radius: 15px 50px 30px 5px;
+  text-align: center;
+}
