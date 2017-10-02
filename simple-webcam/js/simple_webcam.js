@@ -20,7 +20,7 @@ var constraints = {
 // ----------------------
 function successCallback(stream) {
   console.log("Getting the media stream succeded!", stream);
-  video.objectSrc = windowUrl.createObjectURL(stream);
+  video.src = windowUrl.createObjectURL(stream);
 }
 
 function errorCallback(error) {
